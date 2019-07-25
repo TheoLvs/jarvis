@@ -11,7 +11,7 @@ from .utils import today,now
 LOG_DIR = Path(os.path.dirname(__file__)).absolute().parent.parent / "logs"
 
 
-class TimeAnalyzer:
+class Activity:
     def __init__(self,filepath = None,log_dir = LOG_DIR,freq = 30):
 
         self.freq = freq

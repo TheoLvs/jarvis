@@ -3,13 +3,13 @@ import time
 import win32api
 import win32com.client as wincl
 from .time.tracker import TimeTracker
-from .time.analyzer import TimeAnalyzer
+from .time.activity import Activity
 from .time.utils import now
 
 class Jarvis:
     def __init__(self):
         self.tracker = TimeTracker()
-        self.activity = TimeAnalyzer()
+        self.activity = Activity()
         self.tts = wincl.Dispatch("SAPI.SpVoice")
 
     def speak(self,message):
