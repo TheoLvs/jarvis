@@ -1,12 +1,15 @@
 
-
+import time
 import win32api
 import win32com.client as wincl
-from .time import TimeTracker
+from .time.tracker import TimeTracker
+from .time.analyzer import TimeAnalyzer
+from .time.utils import now
 
 class Jarvis:
     def __init__(self):
         self.tracker = TimeTracker()
+        self.activity = TimeAnalyzer()
         self.tts = wincl.Dispatch("SAPI.SpVoice")
 
     def speak(self,message):
@@ -19,3 +22,15 @@ class Jarvis:
 
     def run_tracker(self):
         self.tracker.run()
+
+
+    def run(self,duration = 10*60*60):
+
+        s = now()
+        while now() - s < duration:
+
+            if not self.activity.was_idle_in_the_last(hours = 2):
+                self.speak("Tu devrais prendre une pause, ça fait deux heures que tu travailles.")
+
+            time.sleep(self.activity.freq)
+
