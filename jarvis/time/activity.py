@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 
 # Custom libraries
-from .utils import today,now
+from ..utils import today,now
 
 LOG_DIR = Path(os.path.dirname(__file__)).absolute().parent.parent / "logs"
 

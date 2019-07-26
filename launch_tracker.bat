@@ -1,3 +1,3 @@
-python "./jarvis/time/tracker.py"
+python "scripts/launch_tracker.py"
 
 pause

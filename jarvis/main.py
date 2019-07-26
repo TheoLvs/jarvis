@@ -4,7 +4,7 @@ import win32api
 import win32com.client as wincl
 from .time.tracker import TimeTracker
 from .time.activity import Activity
-from .time.utils import now
+from .utils import now
 
 class Jarvis:
     def __init__(self):

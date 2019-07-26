@@ -9,7 +9,7 @@ from pathlib import Path
 from logging.handlers import RotatingFileHandler
 
 # Custom libraries
-from .utils import today,sec_to_hms,now,get_active_window,get_idle_time
+from ..utils import today,sec_to_hms,now,get_active_window,get_idle_time
 
 
 """
