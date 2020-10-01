@@ -29,8 +29,14 @@
 - Bring a window to the front www.blog.pythonlibrary.org/2014/10/20/pywin32-how-to-bring-a-window-to-front/
 - Toast notifications https://towardsdatascience.com/how-to-make-windows-10-toast-notifications-with-python-fb3c27ae45b9
 
-## Text to speech
+## Text to speech and other libraries for other compatible systems
 - Pyttsx3 https://pypi.org/project/pyttsx3/
+- API and reference: Google API (Google Map, Google
+Weather), Wikipedia API, News API (for daily top 20
+headlines).
+- Libraries: SpeechRecognition, pyttsx3, webbrowser,
+tkinter (for GUI), ecapture, pyjokes, Wikipedia, os,
+shutil, wolframalpha, operator etc.
 
 
 
