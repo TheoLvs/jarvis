@@ -34,9 +34,9 @@
 - API and reference: Google API (Google Map, Google
 Weather), Wikipedia API, News API (for daily top 20
 headlines).
-- Libraries: SpeechRecognition, pyttsx3, webbrowser,
-tkinter (for GUI), ecapture, pyjokes, Wikipedia, os,
-shutil, wolframalpha, operator etc.
+- Libraries: SpeechRecognition https://pypi.org/project/SpeechRecognition/ , pyttsx3  https://pypi.org/project/pyttsx3/, webbrowser,
+tkinter (for GUI), ecapture https://pypi.org/project/ecapture/, pyjokes https://pypi.org/project/pyjokes/, Wikipedia, os,
+shutil https://pypi.org/project/pycopy-shutil/, wolframalpha https://pypi.org/project/wolframalpha/, operator etc.
 
 
 
